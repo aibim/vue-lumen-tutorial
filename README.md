@@ -16,6 +16,7 @@ Um das vue-laravel Tutorial aufrufen zu können, sind folgende Schritte nötig.
 	 ```
 	 php artisan migrate
 	 php artisan db:seed
+	 php artisan passport:install
 	 ```
 
 2. PHP Server für die API starten
