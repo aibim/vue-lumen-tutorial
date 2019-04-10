@@ -1,0 +1,8 @@
+/node_modules
+/vendor
+.idea
+package-lock.json
+.DS_Store
+Homestead.json
+Homestead.yaml
+.env

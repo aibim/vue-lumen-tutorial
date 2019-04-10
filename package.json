@@ -1,0 +1,47 @@
+{
+  "name": "vue-lumen-tutorial",
+  "version": "1.0.0",
+  "description": "Homepage des Vue Lumen Tutorials",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aibim/vue-lumen-tutorial"
+  },
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config webpack.dev.js --content-base public/ --history-api-fallback",
+    "build": "webpack --config webpack.prod.js",
+    "wpm": "webpack --display-modules --sort-modules-by=size"
+  },
+  "keywords": [],
+  "author": "https://github.com/aibim",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "import": "0.0.6",
+    "npm": "^6.9.0",
+    "typeface-roboto": "0.0.54",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.2",
+    "vuetify": "^1.5.7",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "@mdi/font": "^3.5.95",
+    "css-loader": "^1.0.1",
+    "file-loader": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.2.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-merge": "^4.2.1"
+  }
+}
